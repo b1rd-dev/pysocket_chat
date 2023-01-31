@@ -30,4 +30,4 @@ Go to the browser and open
 [<img src="./examples/login_page.png" width="900px"/>](https://github.com/b1rd-dev/pysocket_chat/blob/main/examples/login_page.png)
 
 #### Chat preview:
-[<img src="./examples/chat_example.png" width="900px"/>](https://github.com/b1rd-dev/pysocket_chat/blob/main/examples/chat_example.png)
+[<img src="./examples/chat_page.png" width="900px"/>](https://github.com/b1rd-dev/pysocket_chat/blob/main/examples/chat_page.png)
