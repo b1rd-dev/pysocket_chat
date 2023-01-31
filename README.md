@@ -22,6 +22,8 @@ Go to the browser and open
 
 `127.0.0.1:5000`
 
+#### `For now you can use only username: 1, 2, 3`
+
 <br />
 
 ### Examples:
