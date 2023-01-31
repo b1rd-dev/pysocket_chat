@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding-left: 20%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+
+
+input:focus::-webkit-input-placeholder {
+  display: none;
+}
+
+
+
+.app-name{
+  font-family:"Roboto";
+  font-size: 30px;
+}
+
+.form-username {
+  width: 90%;
+  max-width: 400px;
+  padding: 14px 20px;
+  margin: auto;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 30px;
+}
+
+.form-signin .form-username {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-username:focus {
+  z-index: 2;
+  outline: none;
+}
+
+.btn{
+  width: 40%;
+  padding: 15px;
+  border: none;
+  margin-top: 20px;
+  border: none;
+  border-radius: 40px;
+  font-weight: medium;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn{
+  background-color: #21d4f3;
+}
+
+.chatwindow{
+  position: absolute;
+	top:50;
+	bottom: 50;
+	left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  padding: 30px; 
+}
+h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.user-username{
+  font-weight: bold;
+  color: rgb(22, 141, 18);
+}
+
+.chat {
+  display: block;
+  margin: 20px auto 20px auto
+}
+
+.contact{
+  display: block;
+  font-size: 20px;
+  color: rgb(66, 9, 99);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px auto;
+  width: max-content;
+}
+
+.hidden{
+  display: none;
+}
+
+.message-input{
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.btn-send{
+  width: 100px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgb(4, 156, 4);
+  color: white;
+}
+
+.btn-leave{
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 20%;
+  background-color: red;
+  color: #fff;
+}
